@@ -1,0 +1,16 @@
+@import url(../css/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+:root{
+    --branco: #ffffff;
+    --preto-titulo: #4C545C;
+    --cinza-texto: #9EABB2;
+    --verde: #26BBA4;
+    --roxo: #6174FF;
+
+    --border-radius: 28px;
+}
+
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
