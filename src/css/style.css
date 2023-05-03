@@ -13,9 +13,6 @@
 
 body{
     font-family: 'Bai Jamjuree', sans-serif;
-    background-image: url('../imagens/back.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
 }
 
 .cabecalho{
@@ -23,16 +20,24 @@ body{
     margin-top: 7em;
 }
 
-.cabecalho__titulo{
+.background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: .5;
+}
+
+.titulo{
     color: var(--preto-titulo);
     font-size: 2em;
     font-weight: 600;
-    padding: 2.5em 1.3em 1em;
+    padding: 2.5em 1em 1em;
 }
 
-.cabecalho__texto{
+.texto{
     color: var(--cinza-texto);
-    padding-inline: 1em;
+    padding-inline: 1.5em;
     padding-bottom: 3em;
 }
 
@@ -63,4 +68,21 @@ body{
 .mac{
     background: var(--roxo);
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0988035), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+}
+
+.info, .access{
+    text-align: center;
+}
+
+.more-info-titulo, .list-titulo{
+    padding-block: 1.5em .5em;
+    font-size: 1.6em;
+}
+
+.access-titulo{
+    padding-block: 1.5em .5em;
+}
+
+.access-texto{
+    padding-bottom: 5.5em;
 }
