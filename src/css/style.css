@@ -106,3 +106,15 @@ body{
 .so-titulo{
     padding-top: 5em;
 }
+
+.rodape{
+    
+    
+}
+
+.rodape::after{
+    content: '';
+    background: var(--cinza-texto);
+    opacity: .1;
+    mix-blend-mode: normal;
+}
