@@ -33,12 +33,14 @@ body{
     font-size: 2em;
     font-weight: 600;
     padding: 2.5em 1em 1em;
+    text-align: center;
 }
 
 .texto{
     color: var(--cinza-texto);
     padding-inline: 1.5em;
     padding-bottom: 3em;
+    text-align: center;
 }
 
 .cabecalho__botoes{
@@ -87,6 +89,20 @@ body{
     padding-bottom: 5.5em;
 }
 
-.container__more-info img, .access img{
+.container__more-info img, .desktop{
     width: 90%;
+}
+
+.companies{
+    display: flex;
+    justify-content: center;
+    padding-top: 4em;
+}
+
+.so{
+    padding-bottom: 10em;
+}
+
+.so-titulo{
+    padding-top: 5em;
 }
