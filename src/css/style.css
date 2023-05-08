@@ -86,3 +86,7 @@ body{
 .access-texto{
     padding-bottom: 5.5em;
 }
+
+.container__more-info img, .access img{
+    width: 90%;
+}
