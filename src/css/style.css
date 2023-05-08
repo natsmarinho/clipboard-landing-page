@@ -7,6 +7,7 @@
     --cinza-texto: #9EABB2;
     --verde: #26BBA4;
     --roxo: #6174FF;
+    --back-rodape: #e4e4e4;
 
     --border-radius: 28px;
 }
@@ -108,13 +109,29 @@ body{
 }
 
 .rodape{
-    
-    
+    background: var(--back-rodape);
+    mix-blend-mode: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 3.2em;
+    gap: 3em;
+    text-align: center;
 }
 
-.rodape::after{
-    content: '';
-    background: var(--cinza-texto);
-    opacity: .1;
-    mix-blend-mode: normal;
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
 }
+
+.links-items{
+    color: var(--preto-titulo);
+}
+
+.social-media{
+    display: flex;
+    gap: 2.5em;
+}
+
+
