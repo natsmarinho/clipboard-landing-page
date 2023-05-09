@@ -126,7 +126,7 @@ body{
 }
 
 .links-items{
-    color: var(--preto-titulo);
+    color: var(--preto-titulo   );
 }
 
 .social-media{
