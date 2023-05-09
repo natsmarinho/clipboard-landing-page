@@ -135,3 +135,21 @@ body{
 }
 
 
+@media screen and (min-width: 768px){
+    .titulo{
+        font-size: 3em;
+    }
+
+    .texto{
+        font-size: 2em;
+    }
+
+    .cabecalho__botoes{
+        gap: 2em;
+    }
+
+    .btn{
+        font-size: 25px;
+    }
+}
+
