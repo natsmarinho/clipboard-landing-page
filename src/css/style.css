@@ -132,7 +132,7 @@ body{
     gap: 1.2em;
 }
 
-.links-items{
+.link__items{
     color: var(--preto-titulo);
 }
 
@@ -269,4 +269,19 @@ body{
         grid-template-columns: 6em 8em 8em;
     }
 
+    .ios:hover{
+      background: #49d4c0;
+    }
+
+    .mac:hover{
+        background: #7b8bff;
+    }
+
+    .link__items:hover, .link__items:active{
+        color: var(--verde);
+    }
+
+    path:hover{
+        fill: var(--verde);
+    }
 }
